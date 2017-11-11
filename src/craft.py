@@ -23,11 +23,11 @@ def craft_newsletter():
     breaking = requests.get("https://librenews.io/api").json()["latest"]
 
     period = "AM"
-    greeting = "Good morning."
+    greeting = "It's 5:30 ZULU time."
 
     if datetime.datetime.now(tz=None).time() > datetime.time(12):
         period = "PM"
-        greeting = "Good evening."
+        greeting = "It's 17:30 ZULU time."
 
     name = period + " - " + datetime.date.today().strftime("%A, %d %B %Y")
 
