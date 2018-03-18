@@ -36,7 +36,7 @@ def send_mail(name, subject, preview, html, text):
                 "preview_text": preview,
                 "title": name,
                 "from_name": "530ZULU",
-                "reply_to": "0@rmrm.io",
+                "reply_to": "530zulu@sendmiles.email",
             }
         })
 
