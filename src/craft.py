@@ -56,8 +56,8 @@ def craft_html(newsletter):
     		</xml>
     		<![endif]-->
     	<meta charset="UTF-8">
-    	<meta http-equiv="X-UA-Compatible" content="IE=3Dedge">
-    	<meta name="viewport" content="width=3Ddevice-width, initial-scale=3D1">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
     	<title>{{name}}</title>
 
     	<style type="text/css">
@@ -131,8 +131,8 @@ def craft_html(newsletter):
     			mso-line-height-rule: exactly;
     		}
 
-    		a[href^=3Dtel],
-    		a[href^=3Dsms] {
+    		a[href^=tel],
+    		a[href^=sms] {
     			color: inherit;
     			cursor: default;
     			text-decoration: none;
@@ -783,7 +783,7 @@ def craft_html(newsletter):
     													</tr>
     												</tbody>
     											</table>
-                                                <br \>
+                                                <br>
     											{% endfor %}
     										</td>
     									</tr>
