@@ -612,7 +612,7 @@ def craft_html(newsletter):
 
     																			<h1 class="null" style="text-align: center;display: block;margin: 0;padding: 0;color: #222222;font-family: Helvetica;font-size: 40px;font-style: normal;font-weight: bold;line-height: 150%;letter-spacing: normal;"><span style="color:#FFFFFF"><span style="font-size:64px"><span style="font-family:helvetica neue,helvetica,arial,verdana,sans-serif"><strong>530ZULU</strong></span></span></span></h1>
 
-    																			<h3 class="null" style="text-align: center;display: block;margin: 0;padding: 0;color: #444444;font-family: Helvetica;font-size: 22px;font-style: normal;font-weight: bold;line-height: 150%;letter-spacing: normal;"><span style="color:#FFFFFF"><span style="font-size:24px"><span style="font-family:helvetica neue,helvetica,arial,verdana,sans-serif">PM - Sunday, 15 April 2018</span></span></span></h3>
+    																			<h3 class="null" style="text-align: center;display: block;margin: 0;padding: 0;color: #444444;font-family: Helvetica;font-size: 22px;font-style: normal;font-weight: bold;line-height: 150%;letter-spacing: normal;"><span style="color:#FFFFFF"><span style="font-size:24px"><span style="font-family:helvetica neue,helvetica,arial,verdana,sans-serif">{{name}}</span></span></span></h3>
 
     																		</td>
     																	</tr>
